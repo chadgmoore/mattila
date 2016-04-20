@@ -161,7 +161,7 @@ td, th {
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
-  text-align: center;
+  text-align: left;
   font-variant: normal;
   text-transform: none;
   line-height: 1em;
@@ -652,7 +652,7 @@ img {
 #blog-header {
   position: relative;
   padding: 6em 0;
-  text-align: center; }
+  text-align: left; }
 
 #blog-header:after {
   position: absolute;
@@ -1009,7 +1009,7 @@ img {
   padding-bottom: 6em; }
 
 .credits {
-  text-align: center;
+  text-align: left;
   font-size: 0.625em;
   line-height: 1em;
   padding: 1.1em 0;
@@ -1105,7 +1105,7 @@ img {
   font-weight: normal;
   content: '\e800';
   color: inherit;
-  text-align: center;
+  text-align: left;
   color: #e5e4e1; }
 
 /* ==========================================================================
@@ -1245,7 +1245,7 @@ img {
   float: left;
   font-size: 0.75em;
   line-height: 2em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: #ffffff;
   border-radius: 2px;
@@ -1285,7 +1285,7 @@ img {
   font-size: 0.75em;
   font-weight: 500;
   line-height: 1.333em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: #f26a3d;
   border-radius: 2em;
@@ -1361,7 +1361,7 @@ img {
 .post-comments {
   position: relative;
   padding: 2em 0;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid #e5e4e1;
   box-sizing: border-box; }
 
@@ -1380,7 +1380,7 @@ img {
   font-size: 0.75em;
   line-height: 1.333em;
   color: #8a9199;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   transition: all ease 0.3s;
   border-radius: 2em; }
@@ -1439,7 +1439,7 @@ img {
   margin-top: -1em;
   font-size: 2em;
   line-height: 2em;
-  text-align: center;
+  text-align: left;
   transition: all ease-out 0.3s;
   color: #e5e4e1; }
 
@@ -1497,7 +1497,7 @@ img {
   border: 1px solid #c2c7cc;
   font-size: 0.75em;
   line-height: 1.5em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: #8a9199;
   transition: all ease 0.3s;
@@ -1540,7 +1540,7 @@ img {
   display: block;
   font-size: 0.75em;
   line-height: 2.666em;
-  text-align: center; }
+  text-align: left; }
 
 .extra-pagination {
   display: none; }
