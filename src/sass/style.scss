@@ -82,7 +82,7 @@ h3 {
 h4 {
 	font-size: 1.25em;
 	line-height: 1.2em;
-	margin: 2.4em 0 -0.8em;
+	margin: .33em 1em 0 0em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -332,13 +332,13 @@ img {
 
 #blog-header {
 	position: relative;
-	padding: 6em 0;
-	text-align: center;
+	padding: 2em 0;
+	text-align: left;
 }
 #blog-header:after {
 	position: absolute;
 	width: 32em;
-	height: 1px;
+//	height: 1px;
 	left: 50%;
 	bottom: 0;
 	margin-left: -16em;
@@ -403,12 +403,12 @@ img {
 	padding: 0;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1em;
 	line-height: 1em;
 	text-decoration: none;
 }
 .home-template .blog-name {
-	font-size: 3em;
+	font-size: 2em;
 }
 .has-cover .blog-name {
 	color: $color-white;
@@ -420,12 +420,15 @@ img {
 }
 .blog-description {
 	position: relative;
-	display: block;
 	z-index: 10;
 	margin: 0.25em 0;
 	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 700;
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1em;
+	text-decoration: none;
+    color: $color-gray-90;
 }
 .home-template .blog-description {
 	font-size: 1.5em;
@@ -695,7 +698,7 @@ img {
 	z-index: 20;
 	font-family: 'Fira Sans', sans-serif;
 	line-height: 1em;
-	padding-bottom: 6em;
+	padding-bottom: 2em;
 }
 .credits {
 	text-align: center;
@@ -774,12 +777,12 @@ img {
 	position: relative;
 }
 .container .post {
-	padding: 4em 0;
+	padding: .33em 0;
 }
 .container .post:after {
 	position: absolute;
 	width: 32em;
-	height: 1px;
+//	height: 1px;
 	left: 50%;
 	bottom: 0;
 	margin-left: -16em;
@@ -827,7 +830,7 @@ img {
 
 #post-header {
 	position: relative;
-	padding-top: 6em;
+	padding-top: 2em;
 }
 #post-header.has-cover {
 	padding: 16em 0 2em;
@@ -864,7 +867,7 @@ img {
 .post-title {
 	position: relative;
 	z-index: 10;
-	margin: 0 0 0.5em;
+	margin: 0 0 0em;
 	font-size: 2em;
 	line-height: 1em;
 	font-weight: 700;
@@ -883,7 +886,7 @@ img {
 	position: relative;
 	z-index: 10;
 	display: block;
-	margin-bottom: 1.333em;
+	margin-bottom: 0.333em;
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
